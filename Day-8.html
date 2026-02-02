@@ -1,0 +1,67 @@
+<!--Form (collect data from user)-->
+<h2> Registration Form</h2><hr>
+<form action="/action.js">
+<!--input type (input take from user)-->
+<pre> 
+      Name:  <input type="text" placeholder="user name">       <br><br>    <!--text: mix of alpha+numeric values-->
+    Password:<input type="password" placeholder="password">    <br><br>     <!--at the time of typing password not visible-->
+
+<!--Radio button (at a time can click only one)-->
+<!--label used to label form fields (easy clicking)-->
+
+<label for="101">
+     Class: <input type="radio" value="class X" name="class">Class X    <br>  <!--radio:O  || value:name for O || name="class":make only one click at a time-->
+</label>           
+<label for="102">
+     Class: <input type="radio" value="class XII" name="class">Class XII   <br>
+</label>
+     <hr></pre>
+   
+<!--Radio button (at a time can click only one)-->
+     Class: <input type="radio" value="class X" name="class">Class X    <br>  <!--radio:O  || value:name for O || name="class":make only one click at a time-->
+            <input type="radio" value="class XI" name="class">Class XI  <hr></pre>
+   
+
+<!--in above we can only click on circle then tick.
+now here we can click on circle/radio as well as on text. -->
+       <pre>
+     Class:<label for="a">                                      <!--label:make click also on text || label for=""take any random value-->
+           <input type="radio" value="class X" name="class" id="a">Class X  </label>  <br>       <!--id="" means id a & b both having same grp i.e class id grp x & XI is id3-->
+           <label for="b">
+           <input type="radio" value="class XI" name="class" id="b">Class XI  </label></pre><hr>
+
+<!--Checkbox (multiple click at a time)-->
+     <pre> 
+     Subject:<label for="c">                                      <!--label:make click also on text || label for=""take any random value-->
+           <input type="checkbox" value="class English" name="sub" id="c">English  </label>  <br>       <!--id="" means id a & b both having same grp i.e class id grp x & XI is id3-->
+           <label for="d">
+           <input type="checkbox" value="class Marathi" name="sub"id="d">Marathi  </label></pre><br>
+
+
+<!--select (for dropdown list--><pre>
+      City: <select>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>kashmir</option>
+            <option>Baramati</option>
+            <option>Shirur</option>
+            </select>
+<!--feedback  (lagre space)-->
+     Feedback:<textarea name="feedback" placeholder="please give your valuable feedback here">Feedback</textarea></pre><br>
+
+            
+<!--Submit button-->
+     <input type="submit" value="submit">   <br><hr>
+<!--iframe tag ~anchor tag  (webside inside webside for e.g youtube video inside youtube)-->  
+<!--goto youtube-> click on video-> share-> <embedded>link copy past-->
+<iframe width="614" height="301" src="https://www.youtube.com/embed/qlzSMFWs0xQ" title="Get Started on YouTube ✨" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!--video tag-->
+<video width="560" height="315" src="https://drive.google.com/drive/folders/1wfNTKinBAV6CCxaI5lfSnnRFAYpy0uEl">My Video</video>
+
+
+
+
+<a href="https://drive.google.com/drive/folders/1wfNTKinBAV6CCxaI5lfSnnRFAYpy0uEl">Notes click here</a>
+
+</form>
